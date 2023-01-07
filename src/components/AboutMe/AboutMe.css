@@ -1,74 +1,18 @@
 .AboutMe {
   
 }
-
-.about-me__left-circle {
-    position: absolute;
-    top: 67px;
-    left: -110px;
-    width: 592px;
-    height: 592px;
-    border: 89px solid #E4E4E4;
-    border-radius: 50%;
-    filter: drop-shadow(0px 4px 70px rgba(255, 255, 255, 0.25));
-    z-index: 1;
+.about_me-title {
+    margin-top: 60px;
 }
-
-.about-me__right-top {
-    width: 230px;
-    height: 230px;
-    position: absolute;
-    top: 40px;
-    right: 5%;
-    border: 34px solid #E2A200;
-    border-radius: 50%;
-    filter: drop-shadow(0px 4px 70px rgba(226, 162, 0, 0.25));
-    z-index: 1;
-}
-
-.about-me__right-bottom {
-    width: 386px;
-    height: 386px;
-    position: absolute;
-    top: 410px;
-    right: 0;
-    border: 55px solid #00C4F0;
-    border-radius: 50%;
-    filter: drop-shadow(0px 4px 70px rgba(0, 193, 236, 0.25));
-    z-index: 1;
-}
-
-.about-me__container__title {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
-    z-index: 3;
-    font-style: normal;
+.about_me-title h1 {
     font-weight: 400;
     font-size: 48px;
-    line-height: 54px;
     color: #E4E4E4;
-    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.about-me__photo-left-top {
-    width: 330px;
-    height: 378px;
-    background: #2C2C2C;
-    border-radius: 14px;
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50px;
-    left: 10%;
-    transition: ease 0.5s;
-}
-
-.about-me__photo-left-top:hover , .about-me__photo-left-bottom:hover {
+.about-me__photo-left-bottom:hover {
     box-shadow: 0px 4px 70px rgba(255, 255, 255, 0.25)
 }
 
@@ -130,3 +74,41 @@
 .about-me__photo-right:hover {
     box-shadow: 0px 4px 70px rgba(226, 162, 0, 0.25);
 }
+
+.about_me--container {
+    display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 480px); 
+  gap: 30px 30px; 
+  grid-template-areas: 
+    "about-me1 about-me2 about-me3"
+    "about-me5 about-me2 about-me4"; 
+    position: relative;
+    z-index: 3;
+}
+.about-me-item {
+    background: #2C2C2C;
+    border-radius: 29px;
+    overflow: hidden
+}
+.about-me-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-me1 { grid-area: about-me1; }
+.about-me2 { 
+    grid-area: about-me2;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    transition: ease 0.5s;
+    cursor: default;
+    padding: 15px;
+    text-align: center;
+
+}
+.about-me3 { grid-area: about-me3; }
+.about-me4 { grid-area: about-me4; }
+.about-me5 { grid-area: about-me5; }
