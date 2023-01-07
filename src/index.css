@@ -33,6 +33,17 @@ body::-webkit-scrollbar-thumb {
   /* закругления плашки */
 }
 
+/*Класс Запрета выделения текста*/
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .container {
   max-width: 1320px;
   padding-left: 15px;

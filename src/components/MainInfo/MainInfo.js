@@ -8,7 +8,7 @@ const MainInfo = () => {
         <div className='main-info__container'>
           <div className='main-info__description'>
             <div className='main-info__description-hello'>
-              <h1>Привет</h1>
+              <h1><span className='unselectable'>&lt;head&gt;</span>Привет<span className='unselectable'>&lt;/head&gt;</span></h1>
             </div>
             <div className='main-info__description-name'>
               <h1>

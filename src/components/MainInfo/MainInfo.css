@@ -53,6 +53,12 @@
     bottom: 15px;
     right: 0;
 }
+.main-info__description-hello span {
+    color: #00C4F0;
+    font-size: 24px;
+    text-transform: initial;
+    cursor: default;
+}
 
 .main-info__description-hello h1 {
     font-style: normal;
@@ -60,9 +66,11 @@
     font-size: 48px;
     line-height: 54px;
     color: #E4E4E4;
-    text-transform: uppercase;
     margin-top: 140px;
     margin-bottom: 15px;
+    text-transform: uppercase;
+    display: flex;
+    cursor: default;
 }
 
 .main-info__description-name h1 {
@@ -73,10 +81,12 @@
     color: #E4E4E4;
     text-transform: uppercase;
     margin: 0;
+    cursor: default;
 }
 
 .main-info__description-text {
     margin-top: 25px;
+    cursor: default;
 }
 
 .main-info__description-text span {
@@ -85,6 +95,7 @@
     font-size: 21px;
     line-height: 21px;
     color: #E4E4E4;
+    cursor: default;
 }
 .main-info__description-button {
     margin-top: 25px;
