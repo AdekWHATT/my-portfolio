@@ -1,0 +1,109 @@
+.MainInfo {
+   
+}
+.main-info__container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.main-info__description {
+    width: 40%;
+}
+
+.main-info__img {
+    width: 60%;
+    position: relative;
+}
+
+.main-info__img-one {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10px;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.main-info__img-one::before {
+    content: '';
+    position: absolute;
+    border: 10px solid red;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.main-info__img-two {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 440px;
+    height: 440px;
+    border: 67px solid #00C4F0;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 152px rgba(0, 196, 240, 0.42));
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.main-info__img-two::after {
+    content: url(../../images/desc.png);
+    position: absolute;
+    z-index: 4;
+    bottom: 15px;
+    right: 0;
+}
+
+.main-info__description-hello h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #E4E4E4;
+    text-transform: uppercase;
+    margin-top: 140px;
+    margin-bottom: 15px;
+}
+
+.main-info__description-name h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    color: #E4E4E4;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.main-info__description-text {
+    margin-top: 25px;
+}
+
+.main-info__description-text span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 21px;
+    color: #E4E4E4;
+}
+.main-info__description-button {
+    margin-top: 25px;
+}
+
+.main-info__description-button__btn {
+    border: none;
+    cursor: pointer;
+    padding: 14px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.main-info__description-button__btn:hover {
+    background: linear-gradient(87.32deg, #E29500 4.47%,  #E2A300 95.53%);
+}

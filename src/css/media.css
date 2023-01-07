@@ -1,0 +1,25 @@
+/* Стили для больших экранов (дисплей максимум 1399 пикселей) */
+@media (max-width: 1399px) { 
+    
+}
+/* Стили для больших экранов (дисплей максимум 1199 пикселей) */
+@media (max-width: 1199px) { 
+    .main-info__description-hello h1 {
+        font-size: 36px !important;
+    }
+    .main-info__description-name h1 {
+        font-size: 54px !important;
+    }
+    .main-info__description-text span {
+        font-size: 16px !important;
+    }
+ }
+
+/* Стили для средних экранов (дисплей максимум 991 пикселей) */
+@media (max-width: 991px) {  }
+
+/* Стили для маленьких экранов (дисплей максимум 767 пикселей) */
+@media (max-width: 767px) {  }
+
+/* Стили для очень маленьких экранов (дисплей максимум 575 пикселей) */
+@media (max-width: 575px) {  }
