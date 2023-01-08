@@ -7,19 +7,19 @@
 .about_me-title h1 {
     font-weight: 400;
     font-size: 48px;
-    color: #E4E4E4;
+    color: var(--text-color);
     text-align: center;
     text-transform: uppercase;
 }
 
 .about_me--container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 480px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 350px);
     gap: 30px 30px;
     grid-template-areas:
-        "about-me1 about-me2 about-me3"
-        "about-me5 about-me2 about-me4";
+        "about-me2 about-me1"
+        "about-me2  about-me3";
     justify-content: center;
     position: relative;
     z-index: 3;
@@ -49,38 +49,35 @@
 
 .about-me2 {
     grid-area: about-me2;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--text-color);
     transition: ease 0.5s;
     cursor: default;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
+    overflow-y: auto;
+}
+
+.about-me2::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+.about-me2::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+}
+
+.about-me2::-webkit-scrollbar-thumb {
+    /* цвет плашки */
+    background-color: #00C4F0;
+    /* закругления плашки */
+    border-radius: 10px;
 
 }
 
 .about-me3 {
     grid-area: about-me3;
-}
-
-.about-me4 {
-    grid-area: about-me4;
-}
-
-.about-me5 {
-    grid-area: about-me5;
-}
-
-@media (max-width: 1199px) {
-    .about_me--container {
-        grid-template-columns: repeat(2, 400px);
-        grid-template-rows: repeat(3, 420px);
-        gap: 30px 30px;
-        grid-template-areas: "about-me1 about-me3"
-            "about-me2  about-me2"
-            "about-me4 about-me5";
-        position: relative;
-        z-index: 3;
-    }
 }

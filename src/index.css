@@ -7,8 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+  background-color: #1C1C1C ; 
   background-attachment: fixed;
+  min-width: 376px;
+  overflow-x: hidden;
 }
 
 code {
@@ -42,6 +44,12 @@ body::-webkit-scrollbar-thumb {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+/* Переменные цветов*/
+
+:root {
+  --text-color: #E4E4E4;
 }
 
 .container {

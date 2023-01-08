@@ -33,7 +33,8 @@ const Certificates = () => {
                 </div>
                 <Slider {...settings}>
                     <div className='certificates__item'>
-                        <img src={content} alt="Сертификат Битрикс" />
+                        <img src={content} alt="Сертификат Битрикс"
+                        />
                     </div>
                     <div className='certificates__item'>
                         <img src={webmimo} alt="Сертификат Мимо" />

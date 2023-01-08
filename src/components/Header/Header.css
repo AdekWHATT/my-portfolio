@@ -30,7 +30,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
-    color: #E4E4E4;
+    color: var(--text-color);
 
 }
 
