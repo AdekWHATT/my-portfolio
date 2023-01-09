@@ -1,0 +1,9 @@
+{
+  "short_name": "Портфолио Килин В.А",
+  "name": "Сайт Портфолио",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Сайт-портфолио Килин В.А."
+}
