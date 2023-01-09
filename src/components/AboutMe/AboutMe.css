@@ -57,7 +57,7 @@
     cursor: default;
     padding: 20px;
     text-align: center;
-    overflow-y: auto;
+    overflow: hidden scroll;
 }
 
 .about-me2::-webkit-scrollbar {
