@@ -33,11 +33,11 @@ const MainInfo = () => {
     }
   }, [showFade]);
   // Запрет скролла при открытом модальном окне
-  if (showModal) {
-    document.body.style.overflow = 'hidden';
-  } else {
-    document.body.style.overflow = 'auto';
-  };
+  // if (showModal) {
+  //   document.body.style.overflow = 'hidden';
+  // } else {
+  //   document.body.style.overflowY = 'hidden';
+  // };
 
   // Объявляем переменные состояния для входных значений
   const [name, setName] = useState('');
