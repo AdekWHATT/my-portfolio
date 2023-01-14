@@ -46,7 +46,7 @@
 .about-me1 {
     grid-area: about-me1;
 }
-
+    
 .about-me2 {
     grid-area: about-me2;
     font-weight: 300;
