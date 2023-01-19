@@ -170,3 +170,35 @@
     opacity: 0.5;
     z-index: 9998;
 }
+
+@media (max-width: 1199px) { 
+    .main-info__description-hello h1 {
+        font-size: 36px !important;
+    }
+    .main-info__description-name h1 {
+        font-size: 54px !important;
+    }
+    .main-info__description-text span {
+        font-size: 22px !important;
+    }
+    .main-info__img {
+        display: none;
+    }
+    .main-info__description-hello h1 {
+        margin-top: 0 !important;
+    }
+    .main-info__description {
+        width: 100% !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+ }
+
+ @media (max-width: 767px) { 
+    .MainInfo {
+        margin-bottom: 60px;
+    }
+  }

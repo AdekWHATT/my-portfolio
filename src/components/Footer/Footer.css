@@ -12,8 +12,16 @@
 .footer__center-block__list {}
 
 .footer__bottom-block {
-      padding-top: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
 
+}
+
+@media (max-width: 767px) {
+    .footer__center-block__list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
 }

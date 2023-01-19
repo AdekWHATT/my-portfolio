@@ -10,7 +10,7 @@
 
 .navbar__logo {
     display: flex;
-    column-gap: 10px;
+    
 }
 
 .navbar__links {
@@ -72,3 +72,16 @@
 .navbar__list_sub-social:hover a {
     border-bottom: none;
 }
+
+@media (max-width: 767px) {
+    .navbar-row {
+        flex-direction: column;
+    }
+    .navbar__links {
+        width: 100%;
+    }
+ }
+
+@media (max-width: 575px) { 
+
+ }

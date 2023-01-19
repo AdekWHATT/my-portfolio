@@ -81,3 +81,19 @@
 .about-me3 {
     grid-area: about-me3;
 }
+
+@media (max-width: 767px) { 
+    .about_me--container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 350px);
+        gap: 30px 30px;
+        grid-template-areas:
+            "about-me2"
+            "about-me1"
+            "about-me3";
+        justify-content: center;
+        position: relative;
+        z-index: 3;
+    }
+ }
