@@ -16,14 +16,6 @@ const Footer = () => {
                             <li><a href="https://github.com/AdekWHATT" target="_blank">GitHub</a></li>
                         </ul>
                     </div>
-                    <div className='footer__bottom-block'>
-                        <div className='navbar__logo'>
-                            <Link to='/'><img src={logotext} alt="Логотип"/></Link>
-                            <div>
-                        </div>
-                        </div>
-                       
-                    </div>
                 </div>
             </div>
         </div>

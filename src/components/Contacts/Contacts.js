@@ -24,15 +24,15 @@ const Contacts = () => {
                                     </tr>
                                     <tr>
                                         <td>WhatsApp</td>
-                                        <td><a href='https://wa.me/79991699390' target="_blank">+7 (999) 169-93-90</a></td>
+                                        <td><a href='https://wa.me/79991699390' target="_blank" rel="noreferrer">+7 (999) 169-93-90</a></td>
                                     </tr>
                                     <tr>
                                         <td>Telegram</td>
-                                        <td><a href='https://t.me/adekwhatt' target="_blank">@adekwhatt</a></td>
+                                        <td><a href='https://t.me/adekwhatt' target="_blank" rel="noreferrer">@adekwhatt</a></td>
                                     </tr>
                                     <tr>
                                         <td>Мой GitHub</td>
-                                        <td><a href='https://github.com/AdekWHATT' target="_blank">https://github.com/AdekWHATT</a></td>
+                                        <td><a href='https://github.com/AdekWHATT' target="_blank" rel="noreferrer">https://github.com/AdekWHATT</a></td>
                                     </tr>
                                     <tr>
                                         <td>портфолио</td>

@@ -1,7 +1,7 @@
 import MainPage from './Pages/MainPage/MainPage';
 import PortfolioPage from './Pages/PortfolioPage/PortfolioPage';
 import ContactsPage from './Pages/ContactsPage/ContactsPage';
-import { Route, Routes, } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
       <Routes>
