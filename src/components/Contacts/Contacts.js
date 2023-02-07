@@ -6,13 +6,13 @@ const Contacts = () => {
         <div className='Contacts'>
             <div className='container'>
                 <div className='contacts-title'>
-                    <h1>Мои Контакты</h1>
+                    <h1>Контакты</h1>
                 </div>
                 <div className='contacts-container'>
                     <div className='contacts_left-block'>
                         <div className='contacts_left-block__title'>
                             <span>Вы можете связаться со мной любым удобным для Вас способом 24/7</span>
-                            <table class="contacts-table">
+                            <table className="contacts-table">
                                 <tbody>
                                     <tr>
                                         <td>Телефон</td>
@@ -24,15 +24,15 @@ const Contacts = () => {
                                     </tr>
                                     <tr>
                                         <td>WhatsApp</td>
-                                        <td><a href='tel:+79991699390'>+7 (999) 169-93-90</a></td>
+                                        <td><a href='https://wa.me/79991699390' target="_blank">+7 (999) 169-93-90</a></td>
                                     </tr>
                                     <tr>
                                         <td>Telegram</td>
-                                        <td><a href='tel:+79991699390'>@adekwhatt</a></td>
+                                        <td><a href='https://t.me/adekwhatt' target="_blank">@adekwhatt</a></td>
                                     </tr>
                                     <tr>
                                         <td>Мой GitHub</td>
-                                        <td><a href='https://github.com/AdekWHATT'>https://github.com/AdekWHATT</a></td>
+                                        <td><a href='https://github.com/AdekWHATT' target="_blank">https://github.com/AdekWHATT</a></td>
                                     </tr>
                                     <tr>
                                         <td>портфолио</td>
@@ -44,7 +44,7 @@ const Contacts = () => {
                     </div>
                     <div className='contacts_right-block'>
                         <div className='contacts_right-block-img'>
-                            <img src={contacts} alt='Контакты'/>
+                            <img src={contacts} alt='Контакты' />
                         </div>
                     </div>
                 </div>
