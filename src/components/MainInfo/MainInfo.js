@@ -23,9 +23,9 @@ const MainInfo = () => {
               </span>
             </div>
             <div className='main-info__description-button'>
-              <button className='main-info__description-button__btn' type='button'>
+              <a href='tel:+79991699390' className='main-info__description-button__btn' type='button'>
                 Позвонить
-              </button>
+              </a>
             </div>
           </div>
           <div className='main-info__img'>

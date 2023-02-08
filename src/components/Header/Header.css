@@ -1,5 +1,5 @@
 .Header {
-        padding-top: 20px;
+    padding-top: 20px;
 }
 
 .navbar-row {
@@ -11,7 +11,7 @@
 
 .navbar__logo {
     display: flex;
-    
+
 }
 
 .navbar__links {
@@ -77,6 +77,7 @@
 .mobile-navbar {
     display: none;
 }
+
 .mobile-navbar__list {
     list-style: none;
     display: flex;
@@ -90,9 +91,11 @@
     .navbar-row {
         flex-direction: column;
     }
+
     .navbar__links {
         display: none;
     }
+
     .mobile-navbar {
         display: block;
         width: 100%;
@@ -104,8 +107,4 @@
         z-index: 999999;
         background-color: #ffffffc0;
     }
- }
-
-@media (max-width: 575px) { 
-
- }
+}

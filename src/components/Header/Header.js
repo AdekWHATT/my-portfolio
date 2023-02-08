@@ -36,11 +36,11 @@ const Header = () => {
                     </div>
                     <div className='mobile-navbar'>
                         <ul className='mobile-navbar__list'>
-                            <li><Link to="/"><img src={home} alt="Главная"/></Link></li>
-                            <li><Link to="/#about_me"><img src={about} alt="Обо мне"/></Link></li>
-                            <li><Link to="/#certificates"><img src={certificates} alt="Сертификаты"/></Link></li>
-                            <li><Link to="/portfolio"><img src={portfolio} alt="Портфолио"/></Link></li>
-                            <li><Link to="/contacts"><img src={contacts} alt="Контакты"/></Link></li>
+                            <li><Link to="/"><img src={home} alt="Главная" /></Link></li>
+                            <li><Link to="/#about_me"><img src={about} alt="Обо мне" /></Link></li>
+                            <li><Link to="/#certificates"><img src={certificates} alt="Сертификаты" /></Link></li>
+                            <li><Link to="/portfolio"><img src={portfolio} alt="Портфолио" /></Link></li>
+                            <li><Link to="/contacts"><img src={contacts} alt="Контакты" /></Link></li>
                         </ul>
                     </div>
                 </div>

@@ -74,6 +74,7 @@
     display: flex;
     cursor: default;
 }
+
 .main-info__description-name h1 {
     width: 8ch;
     font-family: monospace;
@@ -91,6 +92,7 @@
     animation: flashBorder 0.8s step-end infinite, printText 2s steps(8);
 
 }
+
 @keyframes flashBorder {
     0% {
         border-color: #00C4F0;
@@ -142,11 +144,13 @@
     box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
     border-radius: 6px;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .main-info__description-button__btn:hover {
     background: linear-gradient(87.32deg, #E29500 4.47%, #E2A300 95.53%);
 }
+
 /* Модальное окно*/
 .modal-window {
     position: absolute;
@@ -171,22 +175,27 @@
     z-index: 9998;
 }
 
-@media (max-width: 1199px) { 
+@media (max-width: 1199px) {
     .main-info__description-hello h1 {
         font-size: 36px !important;
     }
+
     .main-info__description-name h1 {
         font-size: 54px !important;
     }
+
     .main-info__description-text span {
         font-size: 22px !important;
     }
+
     .main-info__img {
         display: none;
     }
+
     .main-info__description-hello h1 {
         margin-top: 0 !important;
     }
+
     .main-info__description {
         width: 100% !important;
         text-align: center !important;
@@ -195,10 +204,10 @@
         justify-content: center !important;
         align-items: center !important;
     }
- }
+}
 
- @media (max-width: 767px) { 
+@media (max-width: 767px) {
     .MainInfo {
         margin-bottom: 60px;
     }
-  }
+}
