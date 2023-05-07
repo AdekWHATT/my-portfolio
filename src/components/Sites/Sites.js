@@ -13,7 +13,7 @@ const Sites = () => {
     return (
         <div className='Sites'>
             <div className='container'>
-                <h1 className='sites-title'>Несколько коммерческих проектов</h1>
+                <h1 className='sites-title'>1Несколько коммерческих проектов</h1>
                 <div className='site-grid'>
                     <div className='site-grid-item'>
                         <img src={avtoelectrika} alt='АвтоЭлектрика' />
